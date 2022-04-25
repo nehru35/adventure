@@ -3,12 +3,16 @@
 
 $red : #a81c1c;
 $white : #ffffffd3;
+$kinda-purple : #674568;
+$black : #363535;
 
 .learn-more {
-    display: block;
+    display: inline-block;
     background-color: #a81c1c;
     border-radius: 10%;
     padding: 10px;
+    margin: 20px auto;
+    transition: all 1s;
         
     &:hover {
         background-color: #fff;
@@ -37,5 +41,6 @@ body {
 a {
     text-decoration: none;
     color: #fff;
+    transition: all .5s;
 }
 

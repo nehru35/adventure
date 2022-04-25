@@ -1,47 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;1,300&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-img {
-    width: 100%;
-}
+@import 'config';
 
 .events-section {
     text-align: center;
     overflow: hidden;
     font-family: 'Work Sans', sans-serif;
-
     h2 {
         margin: 30px auto;
-        font-size: 2rem;
-        color: #3b2b3b;
+        font-size: 2.5rem;
+        color: $kinda-purple;
     }
 
     .events-container {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 90%;
+        width: 95%;
         margin: auto;
 
         .image-container {
-            width: 49.5%;
+            width: 49.9%;
 
             figure {
                 img {
-                    width: 90%;
-
+                    width: 95%;
+                    transition: all .5s;
                     &:hover {
                         transform: scale(1.1);
                     }
                 }
+
                 figcaption {
                     padding: 5px;
-                    margin: 5px auto;
+                    margin: 10px auto;
                     font-size: 1rem;
                     color: #3b2b3b;
                 }
@@ -50,25 +40,10 @@ img {
             p {
                 text-align: left;
                 line-height: 1.2;
-                color: #222121;
-                width: 90%;
+                color: $black;
+                width: 95%;
                 margin: auto;
             }
-
-            .learn-more {
-                display: block;
-                background-color: #a81c1c;
-                width: 150px;
-                border-radius: 10%;
-                padding: 10px;
-                margin: 10px auto;
-                
-                &:hover {
-                    background-color: #fff;
-                    color: #a81c1c;
-                }
-            }
-
         }
     }
 }
