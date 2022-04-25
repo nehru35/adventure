@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -57,7 +58,8 @@ a {
   border-radius: 10%;
 }
 .header-container .nav-bar ul li .contact:hover {
-  color: #fff;
+  background-color: #fff;
+  color: #a81c1c;
 }
 .header-container .nav-bar ul li a {
   display: inline-block;
@@ -68,10 +70,27 @@ a {
 }
 .header-container .main-title {
   color: #fff;
+  font-size: 2rem;
+  font-family: "Bebas Neue", cursive;
+}
+.header-container .line {
+  width: 200px;
+  height: 5px;
+  background-color: #a81c1c;
+  margin-bottom: 20px;
 }
 .header-container .subtitle {
   color: #fff;
+  font-size: 5rem;
+  font-family: "Bebas Neue", cursive;
 }
-.header-container a {
+.header-container .learn-more {
   display: block;
+  background-color: #a81c1c;
+  border-radius: 10%;
+  padding: 10px;
+}
+.header-container .learn-more:hover {
+  background-color: #fff;
+  color: #a81c1c;
 }
