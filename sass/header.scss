@@ -39,9 +39,11 @@ a {
         height: 50px;
         padding: 10px;
 
-        p {
+        .logo {
             font-size: 2rem;
             color:#fff;
+            cursor: pointer;
+            user-select: none;
         }
 
         ul {

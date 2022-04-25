@@ -39,9 +39,11 @@ a {
   height: 50px;
   padding: 10px;
 }
-.header-container .nav-bar p {
+.header-container .nav-bar .logo {
   font-size: 2rem;
   color: #fff;
+  cursor: pointer;
+  user-select: none;
 }
 .header-container .nav-bar ul {
   display: flex;
