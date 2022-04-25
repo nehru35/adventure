@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+  color: #a81c1c;
+}
+
+.header-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Work Sans", sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-container .nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 10px;
+}
+.header-container .nav-bar p {
+  font-size: 2rem;
+  color: #fff;
+}
+.header-container .nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-container .nav-bar ul li {
+  list-style: none;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+.header-container .nav-bar ul li .contact {
+  background-color: #a81c1c;
+  border-radius: 10%;
+}
+.header-container .nav-bar ul li .contact:hover {
+  color: #fff;
+}
+.header-container .nav-bar ul li a {
+  display: inline-block;
+  padding: 10px;
+}
+.header-container .nav-bar ul li a:hover {
+  color: #a81c1c;
+}
+.header-container .main-title {
+  color: #fff;
+}
+.header-container .subtitle {
+  color: #fff;
+}
+.header-container a {
+  display: block;
+}
