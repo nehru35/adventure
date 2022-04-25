@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section.upcoming-section {
+  background-color: red;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.upcoming-section .content {
+  width: 40%;
+  margin: 10px;
+  text-align: center;
+}
+section.upcoming-section .content h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+section.upcoming-section .content p {
+  text-align: left;
+}
+section.upcoming-section .content .learn-more {
+  display: inline-block;
+  background-color: #a81c1c;
+  border-radius: 10%;
+  padding: 10px;
+  width: 100px;
+  margin-top: 10px;
+}
+section.upcoming-section .content .learn-more:hover {
+  background-color: #fff;
+  color: #a81c1c;
+}
+section.upcoming-section .images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1px;
+  width: 60%;
+}
+section.upcoming-section .images img {
+  width: 49.5%;
+  margin: auto;
+}
+section.upcoming-section .images img:hover {
+  transform: scale(1.1);
+}
