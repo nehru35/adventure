@@ -1,19 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;1,300&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-a {
-    color: #fff;
-    text-decoration: none;
-}
-.active {
-    color: #a81c1c;
-}
+@import 'config';
 
 .header-container {
     width: 100%;
@@ -36,14 +21,15 @@ a {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 50px;
+        height: 55px;
         padding: 10px;
 
         .logo {
             font-size: 2rem;
-            color:#fff;
+            color: $white;
             cursor: pointer;
             user-select: none;
+            text-transform: uppercase;
         }
 
         ul {
@@ -54,56 +40,44 @@ a {
             li {
                 list-style: none;
                 margin-right: 10px;
-                font-size: 1rem;
+                font-size: 1.1rem;
 
                 .contact {
-                    background-color: #a81c1c;
+                    background-color: $red;
                     border-radius: 10%;
+                    padding: 5px 10px;
+
                     &:hover {
-                        background-color: #fff;
-                        color: #a81c1c;
+                        background-color: $white;
+                        color: $red;
                     }
                 }
-
+                
                 a {
-                    display: inline-block;
                     padding: 10px;
+
                     &:hover {
-                        color: #a81c1c;
+                        color: $red;
                     }
+                }
+                
+                .active {
+                    color: $red;
                 }
             }
         }
     }
 
+
     .main-title {
-        color: #fff;
+        color: $white;
         font-size: 2rem;
         font-family: 'Bebas Neue', cursive;
     }
 
-    .line {
-        width: 200px;
-        height: 5px;
-        background-color: #a81c1c;
-        margin-bottom: 20px;
-    }
-
     .subtitle {
-        color: #fff;
+        color: $white;
         font-size: 5rem;
         font-family: 'Bebas Neue', cursive;
-    }
-
-    .learn-more {
-        display: block;
-        background-color: #a81c1c;
-        border-radius: 10%;
-        padding: 10px;
-        
-        &:hover {
-            background-color: #fff;
-            color: #a81c1c;
-        }
     }
 }

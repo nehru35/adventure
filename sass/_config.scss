@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+$red : #a81c1c;
+$white : #ffffffd3;
+
+.learn-more {
+    display: block;
+    background-color: #a81c1c;
+    border-radius: 10%;
+    padding: 10px;
+        
+    &:hover {
+        background-color: #fff;
+        color: #a81c1c;
+    }
+}
+
+.line {
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: $red;
+    margin-bottom: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
