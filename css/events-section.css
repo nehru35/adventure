@@ -45,6 +45,8 @@ img {
   text-align: left;
   line-height: 1.2;
   color: #222121;
+  width: 90%;
+  margin: auto;
 }
 .events-section .events-container .image-container .learn-more {
   display: block;
