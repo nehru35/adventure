@@ -14,8 +14,10 @@
 }
 
 .line {
+  display: block;
   width: 200px;
   height: 5px;
+  margin: 0 auto;
   border-radius: 10px;
   background-color: #a81c1c;
   margin-bottom: 20px;

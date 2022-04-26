@@ -21,8 +21,10 @@ $black : #363535;
 }
 
 .line {
+    display: block;
     width: 200px;
     height: 5px;
+    margin: 0 auto;
     border-radius: 10px;
     background-color: $red;
     margin-bottom: 20px;
