@@ -1,16 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import 'config';
 
 footer {
     margin-top: 20px;
-    background-color: #112846;
-    color: #fff;
+    background-color: $kinda-back-blue;
+    color: $white;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 100%;
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 60px;
 }
