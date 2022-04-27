@@ -8,6 +8,7 @@
   margin: 20px auto;
   transition: all 1s;
 }
+
 .learn-more:hover {
   background-color: #fff;
   color: #a81c1c;
@@ -33,13 +34,13 @@ body {
   overflow-x: hidden;
   margin: 0 auto;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1920px;
 }
 
 a {
   text-decoration: none;
   color: #fff;
-  transition: all 0.5s;
+  transition: all .5s;
 }
 
 .header-container {
@@ -48,7 +49,7 @@ a {
   background-image: url("../img/header-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -56,6 +57,7 @@ a {
   justify-content: center;
   overflow: hidden;
 }
+
 .header-container .nav-bar {
   position: absolute;
   top: 0;
@@ -67,14 +69,16 @@ a {
   height: 55px;
   padding: 10px;
 }
+
 .header-container .nav-bar .logo {
   font-size: 2rem;
-  color: rgba(255, 255, 255, 0.8274509804);
+  color: #ffffffd3;
   cursor: pointer;
   user-select: none;
   text-transform: uppercase;
   z-index: 1000;
 }
+
 .header-container .nav-bar .btn {
   width: 40px;
   z-index: 1000;
@@ -83,46 +87,56 @@ a {
   cursor: pointer;
   display: none;
 }
+
 .header-container .nav-bar .btn img {
   width: inherit;
 }
+
 .header-container .nav-bar ul {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .header-container .nav-bar ul li {
   list-style: none;
   margin-right: 10px;
   font-size: 1.1rem;
 }
+
 .header-container .nav-bar ul li .contact {
   background-color: #a81c1c;
   border-radius: 10%;
   padding: 5px 10px;
 }
+
 .header-container .nav-bar ul li .contact:hover {
-  background-color: rgba(255, 255, 255, 0.8274509804);
+  background-color: #ffffffd3;
   color: #a81c1c;
 }
+
 .header-container .nav-bar ul li a {
   padding: 10px;
 }
+
 .header-container .nav-bar ul li a:hover {
   color: #a81c1c;
 }
+
 .header-container .nav-bar ul li .active {
   color: #a81c1c;
 }
+
 .header-container .main-title {
-  color: rgba(255, 255, 255, 0.8274509804);
+  color: #ffffffd3;
   font-size: 2rem;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
 }
+
 .header-container .subtitle {
-  color: rgba(255, 255, 255, 0.8274509804);
+  color: #ffffffd3;
   font-size: 5rem;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
 }
 
 @media (max-width: 600px) {
