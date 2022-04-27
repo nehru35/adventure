@@ -163,4 +163,10 @@ a {
   .header-container .nav-bar .show {
     margin-top: 0;
   }
+  .header-container .main-title {
+    font-size: 1.5rem;
+  }
+  .header-container .subtitle {
+    font-size: 3rem;
+  }
 }

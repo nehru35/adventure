@@ -94,6 +94,7 @@ a {
 .explore-section {
   background-image: url("../img/bg2.png");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   width: 100%;
   height: 500px;
@@ -103,10 +104,10 @@ a {
 .explore-section .explore-content {
   width: 50%;
   margin: 10px 20px;
-  position: absolute;
-  top: 5rem;
-  left: 1px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   color: #ffffffd3;
 }
 
@@ -167,4 +168,61 @@ section.upcoming-section .images img {
 
 section.upcoming-section .images img:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .events-section h2 {
+    margin: 15px auto;
+    font-size: 1.5rem;
+  }
+  .events-section .events-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .events-section .events-container .image-container {
+    width: 100%;
+  }
+  .events-section .events-container .image-container figure img {
+    transition: none;
+  }
+  .events-section .events-container .image-container figure img:hover {
+    transform: none;
+  }
+  .explore-section {
+    height: 300px;
+  }
+  .explore-section .explore-content {
+    width: 100%;
+    margin: 0;
+    height: inherit;
+  }
+  .explore-section .explore-content .subtitle {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  .explore-section .explore-content p {
+    width: 90%;
+    margin: 5px auto;
+  }
+  section.upcoming-section {
+    flex-direction: column;
+  }
+  section.upcoming-section .content {
+    width: 100%;
+  }
+  section.upcoming-section .content p {
+    text-align: center;
+  }
+  section.upcoming-section .images {
+    flex-direction: column;
+    width: 100%;
+  }
+  section.upcoming-section .images img {
+    width: 100%;
+    height: 300px;
+    transition: none;
+  }
+  section.upcoming-section .images img:hover {
+    transform: none;
+  }
 }
