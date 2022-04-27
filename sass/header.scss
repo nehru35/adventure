@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     overflow: hidden;
 
     .nav-bar {
@@ -99,13 +100,14 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
     .header-container {
         .nav-bar {
             ul {
                 flex-direction: column;
                 position: absolute;
+                justify-content: flex-end;
                 right: 0;
                 top: 0;
                 background-color: $roxo;
@@ -117,7 +119,7 @@
                 border-radius: 0 0 40% 0;
 
                 li {
-                    margin: 50px;
+                    margin: 40px;
                     font-weight: bold;
                 }
                 

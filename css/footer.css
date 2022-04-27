@@ -8,7 +8,6 @@
   margin: 20px auto;
   transition: all 1s;
 }
-
 .learn-more:hover {
   background-color: #fff;
   color: #a81c1c;
@@ -40,13 +39,13 @@ body {
 a {
   text-decoration: none;
   color: #fff;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 footer {
   margin-top: 20px;
   background-color: #12243b;
-  color: #ffffffd3;
+  color: rgba(255, 255, 255, 0.8274509804);
   text-align: center;
   font-size: 1.2rem;
   width: 100%;
