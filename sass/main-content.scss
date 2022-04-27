@@ -1,0 +1,133 @@
+@import 'config';
+
+
+// Events Section
+
+.events-section {
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Work Sans', sans-serif;
+    h2 {
+        margin: 30px auto;
+        font-size: 2.5rem;
+        color: $kinda-purple;
+    }
+
+    .events-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+
+        .image-container {
+            width: 49.9%;
+
+            figure {
+                img {
+                    width: 95%;
+                    transition: all .5s;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+
+                figcaption {
+                    padding: 5px;
+                    margin: 10px auto;
+                    font-size: 1rem;
+                    color: #3b2b3b;
+                }
+            }
+
+            p {
+                text-align: left;
+                line-height: 1.2;
+                color: $black;
+                width: 95%;
+                margin: auto;
+            }
+        }
+    }
+}
+
+
+// Explore Section
+
+.explore-section {
+    background-image: url('../img/bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+    .explore-content {
+        width: 50%;
+        margin: 10px 20px;
+        position: absolute;
+        top: 5rem;
+        left: 1px;
+        text-align: center;
+        color: $white;
+
+        .subtitle {
+            color: $white;
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: left;
+            line-height: 1.2;
+        }
+    }
+}
+
+// Up comming Events section
+
+section.upcoming-section {
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .content {
+        width: 40%;
+        margin: 10px;
+        text-align: center;
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-align: left;
+            color: $kinda-purple;
+            text-transform: uppercase;
+        }
+        p {
+            text-align: left;
+            color: $black;
+        }
+    }
+
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        gap: 1px;
+
+        img {
+            width: 250px;
+            height: 200px;
+            margin: 2px;
+            transition: all .5s;
+
+            &:hover {
+                transform: scale(1.1)
+            }
+        }
+    }
+}

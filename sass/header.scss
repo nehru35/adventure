@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 
     .nav-bar {
         position: absolute;
@@ -30,7 +31,23 @@
             cursor: pointer;
             user-select: none;
             text-transform: uppercase;
+            z-index: 1000;
         }
+
+        .btn {
+            width: 40px;
+            z-index: 1000;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            display: none;
+            
+            img {
+                width: inherit;
+            }
+        }
+            
+
 
         ul {
             display: flex;
@@ -80,4 +97,40 @@
         font-size: 5rem;
         font-family: 'Bebas Neue', cursive;
     }
+}
+
+@media (max-width: 600px) {
+
+    .header-container {
+        .nav-bar {
+            ul {
+                flex-direction: column;
+                position: absolute;
+                right: 0;
+                top: 0;
+                background-color: $roxo;
+                width: 100%;
+                height: 100vh;
+                z-index: 100;
+                margin-top: -1000px;
+                transition: all 1s;
+                border-radius: 0 0 40% 0;
+
+                li {
+                    margin: 50px;
+                    font-weight: bold;
+                }
+                
+            }
+
+            .btn {
+                display: block;
+            }
+
+            .show {
+                margin-top: 0;
+            }
+        }
+    }
+
 }

@@ -41,30 +41,3 @@ a {
   color: #fff;
   transition: all 0.5s;
 }
-
-.explore-section {
-  background-image: url("../img/bg2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 500px;
-  position: relative;
-}
-.explore-section .explore-content {
-  width: 50%;
-  margin: 10px 20px;
-  position: absolute;
-  top: 5rem;
-  left: 1px;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.8274509804);
-}
-.explore-section .explore-content .subtitle {
-  color: rgba(255, 255, 255, 0.8274509804);
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-.explore-section .explore-content p {
-  text-align: left;
-  line-height: 1.2;
-}
