@@ -155,7 +155,7 @@ section.upcoming-section .images img:hover {
   transform: scale(1.1);
 }
 
-@media (min-width: 780px) {
+@media (max-width: 780px) {
   section.upcoming-section {
     flex-direction: column;
   }
@@ -183,6 +183,10 @@ section.upcoming-section .images img:hover {
   }
   .events-section .events-container .image-container {
     width: 100%;
+  }
+  .events-section .events-container .image-container p {
+    text-align: center;
+    width: 80%;
   }
   .events-section .events-container .image-container figure img {
     transition: none;
@@ -214,6 +218,9 @@ section.upcoming-section .images img:hover {
   }
   section.upcoming-section .content {
     width: 100%;
+  }
+  section.upcoming-section .content h2 {
+    text-align: center;
   }
   section.upcoming-section .content p {
     text-align: center;

@@ -107,7 +107,7 @@
             ul {
                 flex-direction: column;
                 position: absolute;
-                justify-content: flex-end;
+                justify-content: center;
                 right: 0;
                 top: 0;
                 background-color: $roxo;
@@ -119,8 +119,12 @@
                 border-radius: 0 0 40% 0;
 
                 li {
-                    margin: 30px;
+                    margin-bottom: 6rem;
                     font-weight: bold;
+
+                    a {
+                        font-size: 2rem;
+                    }
                 }
                 
             }

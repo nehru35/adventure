@@ -137,7 +137,7 @@ section.upcoming-section {
     }
 }
 
-@media (min-width: 780px) {
+@media (max-width: 780px) {
     // Up comming Events section
 
     section.upcoming-section {
@@ -170,13 +170,18 @@ section.upcoming-section {
             font-size: 1.5rem;
         }
 
+        
         .events-container {
             flex-direction: column;
             width: 100%;
-
+            
             .image-container {
                 width: 100%;
-
+                
+                p {
+                    text-align: center;
+                    width: 80%;
+                }
                 figure {
                     img {
                         transition: none;
@@ -220,6 +225,10 @@ section.upcoming-section {
 
         .content {
             width: 100%;
+
+            h2 {
+                text-align: center;
+            }
 
             p {
                 text-align: center;

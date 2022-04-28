@@ -130,7 +130,7 @@ a {
   .header-container .nav-bar ul {
     flex-direction: column;
     position: absolute;
-    justify-content: flex-end;
+    justify-content: center;
     right: 0;
     top: 0;
     background-color: #481374;
@@ -142,8 +142,11 @@ a {
     border-radius: 0 0 40% 0;
   }
   .header-container .nav-bar ul li {
-    margin: 30px;
+    margin-bottom: 6rem;
     font-weight: bold;
+  }
+  .header-container .nav-bar ul li a {
+    font-size: 2rem;
   }
   .header-container .nav-bar .btn {
     display: block;
