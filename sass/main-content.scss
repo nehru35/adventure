@@ -1,7 +1,7 @@
 @import 'config';
 
 
-// Events Section
+// Upcoming Events section
 
 .events-section {
     text-align: center;
@@ -21,7 +21,7 @@
         margin: auto;
 
         .image-container {
-            width: 49.9%;
+            flex-basis: 50%;
 
             figure {
                 img {
@@ -167,20 +167,20 @@ section.upcoming-section {
     .events-section {
         h2 {
             margin: 15px auto;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
         }
 
         
         .events-container {
             flex-direction: column;
-            width: 100%;
+            width: 95%;
             
             .image-container {
                 width: 100%;
                 
                 p {
                     text-align: center;
-                    width: 80%;
+                    width: 90%;
                 }
                 figure {
                     img {

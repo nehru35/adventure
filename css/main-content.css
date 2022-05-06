@@ -71,7 +71,7 @@ a {
 }
 
 .events-section .events-container .image-container {
-  width: 49.9%;
+  flex-basis: 50%;
 }
 
 .events-section .events-container .image-container figure img {
@@ -200,18 +200,18 @@ section.upcoming-section .images img:hover {
 @media (max-width: 600px) {
   .events-section h2 {
     margin: 15px auto;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   .events-section .events-container {
     flex-direction: column;
-    width: 100%;
+    width: 95%;
   }
   .events-section .events-container .image-container {
     width: 100%;
   }
   .events-section .events-container .image-container p {
     text-align: center;
-    width: 80%;
+    width: 90%;
   }
   .events-section .events-container .image-container figure img {
     transition: none;
