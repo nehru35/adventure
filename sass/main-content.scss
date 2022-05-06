@@ -65,10 +65,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 
     .explore-content {
-        width: 40%;
-        margin: 10px 20px;
+        width: 50%;
+        margin: auto 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -84,6 +85,7 @@
         p {
             text-align: left;
             line-height: 1.2;
+            font-size: 1.1rem;
         }
     }
 }
@@ -202,17 +204,17 @@ section.upcoming-section {
         align-items: center;
         
         .explore-content {
-            width: 100%;
+            width: 90%;
             margin: 0;
             height: inherit;
 
             .subtitle {
-                font-size: 2rem;
-                margin-bottom: 5px;
+                font-size: 1.5rem;
+                margin-bottom: 10px;
             }
 
             p {
-                width: 90%;
+                width: 100%;
                 margin: 5px auto;
             }
         }
