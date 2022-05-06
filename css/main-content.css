@@ -48,6 +48,9 @@ a {
     background-color: #a81c1c;
     color: #ffffffd3;
   }
+  .line {
+    width: 100px;
+  }
 }
 
 .events-section {
@@ -143,7 +146,7 @@ section.upcoming-section {
 }
 
 section.upcoming-section .content {
-  width: 40%;
+  flex-basis: 40%;
   margin: 10px;
   text-align: center;
 }
@@ -151,23 +154,20 @@ section.upcoming-section .content {
 section.upcoming-section .content h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  text-align: left;
   color: #674568;
   text-transform: uppercase;
 }
 
 section.upcoming-section .content p {
-  text-align: left;
   color: #363535;
 }
 
 section.upcoming-section .images {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-  width: 60%;
-  gap: 1px;
+  flex-basis: 60%;
+  gap: 10px;
 }
 
 section.upcoming-section .images img {
@@ -181,12 +181,26 @@ section.upcoming-section .images img:hover {
   transform: scale(1.1);
 }
 
-@media (max-width: 780px) {
+@media (max-width: 815px) {
+  section.upcoming-section {
+    width: 100%;
+  }
+  section.upcoming-section .images img {
+    width: 180px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 700px) {
   section.upcoming-section {
     flex-direction: column;
   }
   section.upcoming-section .content {
-    width: 80%;
+    width: 70%;
+  }
+  section.upcoming-section .content h2 {
+    font-size: 1.5rem;
   }
   section.upcoming-section .images {
     flex-direction: column;
@@ -194,7 +208,7 @@ section.upcoming-section .images img:hover {
   }
   section.upcoming-section .images img {
     width: 100%;
-    height: 300px;
+    height: auto;
     margin-bottom: 10px;
   }
 }
@@ -222,7 +236,7 @@ section.upcoming-section .images img:hover {
     transform: none;
   }
   .explore-section {
-    height: 300px;
+    height: 400px;
     align-items: center;
   }
   .explore-section .explore-content {
@@ -237,29 +251,5 @@ section.upcoming-section .images img:hover {
   .explore-section .explore-content p {
     width: 100%;
     margin: 5px auto;
-  }
-  section.upcoming-section {
-    flex-direction: column;
-  }
-  section.upcoming-section .content {
-    width: 100%;
-  }
-  section.upcoming-section .content h2 {
-    text-align: center;
-  }
-  section.upcoming-section .content p {
-    text-align: center;
-  }
-  section.upcoming-section .images {
-    flex-direction: column;
-    width: 100%;
-  }
-  section.upcoming-section .images img {
-    width: 100%;
-    height: 250px;
-    transition: none;
-  }
-  section.upcoming-section .images img:hover {
-    transform: none;
   }
 }

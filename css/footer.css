@@ -48,6 +48,9 @@ a {
     background-color: #a81c1c;
     color: #ffffffd3;
   }
+  .line {
+    width: 100px;
+  }
 }
 
 footer {
