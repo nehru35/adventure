@@ -51,4 +51,13 @@ a {
     transition: all .5s;
 }
 
+@media (max-width: 700px) {
+    .learn-more {
+
+        &:hover {
+            background-color: #a81c1c;
+            color: $white;
+        }
+    }
+}
 
