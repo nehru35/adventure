@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto:wght@500&display=swap");
 .learn-more {
   display: inline-block;
   background-color: #a81c1c;
@@ -7,8 +7,8 @@
   padding: 10px;
   margin: 20px auto;
   transition: all 1s;
+  font-weight: bold;
 }
-
 .learn-more:hover {
   background-color: #fff;
   color: #a81c1c;
@@ -28,6 +28,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
@@ -40,31 +41,29 @@ body {
 a {
   text-decoration: none;
   color: #fff;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 @media (max-width: 700px) {
   .learn-more:hover {
     background-color: #a81c1c;
-    color: #ffffffd3;
+    color: rgba(255, 255, 255, 0.8274509804);
   }
+
   .line {
     width: 100px;
   }
 }
-
 .events-section {
   text-align: center;
   overflow: hidden;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
 .events-section h2 {
   margin: 30px auto;
   font-size: 2.5rem;
   color: #674568;
 }
-
 .events-section .events-container {
   display: flex;
   align-items: center;
@@ -72,27 +71,22 @@ a {
   width: 95%;
   margin: auto;
 }
-
 .events-section .events-container .image-container {
   flex-basis: 50%;
 }
-
 .events-section .events-container .image-container figure img {
   width: 95%;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-
 .events-section .events-container .image-container figure img:hover {
   transform: scale(1.1);
 }
-
 .events-section .events-container .image-container figure figcaption {
   padding: 5px;
   margin: 10px auto;
   font-size: 1rem;
   color: #3b2b3b;
 }
-
 .events-section .events-container .image-container p {
   text-align: left;
   line-height: 1.2;
@@ -113,7 +107,6 @@ a {
   flex-direction: column;
   text-align: center;
 }
-
 .explore-section .explore-content {
   width: 50%;
   margin: auto 20px;
@@ -121,15 +114,13 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #ffffffd3;
+  color: rgba(255, 255, 255, 0.8274509804);
 }
-
 .explore-section .explore-content .subtitle {
-  color: #ffffffd3;
+  color: rgba(255, 255, 255, 0.8274509804);
   font-size: 3rem;
   margin-bottom: 10px;
 }
-
 .explore-section .explore-content p {
   text-align: left;
   line-height: 1.2;
@@ -144,24 +135,20 @@ section.upcoming-section {
   align-items: center;
   justify-content: space-between;
 }
-
 section.upcoming-section .content {
   flex-basis: 40%;
   margin: 10px;
   text-align: center;
 }
-
 section.upcoming-section .content h2 {
   font-size: 2rem;
   margin-bottom: 10px;
   color: #674568;
   text-transform: uppercase;
 }
-
 section.upcoming-section .content p {
   color: #363535;
 }
-
 section.upcoming-section .images {
   display: flex;
   flex-wrap: wrap;
@@ -169,14 +156,12 @@ section.upcoming-section .images {
   flex-basis: 60%;
   gap: 10px;
 }
-
 section.upcoming-section .images img {
   width: 200px;
   height: 150px;
   margin: 2px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-
 section.upcoming-section .images img:hover {
   transform: scale(1.1);
 }
@@ -191,7 +176,6 @@ section.upcoming-section .images img:hover {
     margin-bottom: 10px;
   }
 }
-
 @media (max-width: 700px) {
   section.upcoming-section {
     flex-direction: column;
@@ -212,7 +196,6 @@ section.upcoming-section .images img:hover {
     margin-bottom: 10px;
   }
 }
-
 @media (max-width: 600px) {
   .events-section h2 {
     margin: 15px auto;
@@ -235,6 +218,7 @@ section.upcoming-section .images img:hover {
   .events-section .events-container .image-container figure img:hover {
     transform: none;
   }
+
   .explore-section {
     height: 400px;
     align-items: center;
@@ -251,5 +235,7 @@ section.upcoming-section .images img:hover {
   .explore-section .explore-content p {
     width: 100%;
     margin: 5px auto;
+    font-size: 1.2rem;
+    text-align: center;
   }
 }

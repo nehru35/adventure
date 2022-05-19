@@ -6,7 +6,7 @@
     background-image: url('../img/header-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -92,13 +92,13 @@
     .main-title {
         color: $white;
         font-size: 2rem;
-        font-family: 'Bebas Neue', cursive;
+        font-family: 'Roboto', sans-serif;
     }
 
     .subtitle {
         color: $white;
         font-size: 5rem;
-        font-family: 'Bebas Neue', cursive;
+        font-family: 'Roboto', sans-serif;
     }
 }
 

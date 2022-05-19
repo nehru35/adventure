@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto:wght@500&display=swap");
 .learn-more {
   display: inline-block;
   background-color: #a81c1c;
@@ -7,8 +7,8 @@
   padding: 10px;
   margin: 20px auto;
   transition: all 1s;
+  font-weight: bold;
 }
-
 .learn-more:hover {
   background-color: #fff;
   color: #a81c1c;
@@ -28,6 +28,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
@@ -40,23 +41,23 @@ body {
 a {
   text-decoration: none;
   color: #fff;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 @media (max-width: 700px) {
   .learn-more:hover {
     background-color: #a81c1c;
-    color: #ffffffd3;
+    color: rgba(255, 255, 255, 0.8274509804);
   }
+
   .line {
     width: 100px;
   }
 }
-
 footer {
   margin-top: 20px;
   background-color: #12243b;
-  color: #ffffffd3;
+  color: rgba(255, 255, 255, 0.8274509804);
   text-align: center;
   font-size: 1.2rem;
   width: 100%;

@@ -6,7 +6,7 @@
 .events-section {
     text-align: center;
     overflow: hidden;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     h2 {
         margin: 30px auto;
         font-size: 2.5rem;
@@ -232,6 +232,8 @@ section.upcoming-section {
             p {
                 width: 100%;
                 margin: 5px auto;
+                font-size: 1.2rem;
+                text-align: center;
             }
         }
     }

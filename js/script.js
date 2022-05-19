@@ -6,7 +6,7 @@ function showMenu() {
 }
 
 function noLink() {
-    window.alert("No link")
+    window.alert("Sorry, this link is not available!")
 }
 
 btn.addEventListener('click', showMenu);
