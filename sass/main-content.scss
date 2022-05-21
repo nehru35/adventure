@@ -3,6 +3,55 @@
 
 // Upcoming Events section
 
+
+
+.errorMessage {
+    opacity: 0;
+    position: fixed;
+    top: 30vh;
+    left: 50%;
+    background-color: $red;
+    color: $white;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    z-index: 100;
+    margin: 10px auto;
+    transform: translateX(-50%);
+    transition: all .6s;
+    
+
+    #errorBtn {
+        margin: 10px auto;
+        padding: 5px 0;
+        border-radius: 50%;
+        font-size: 1rem;
+        font-weight: bold;
+        width: 20%;
+        border: none;
+        background-color: $red;
+        border: 1px solid $white;
+        color: $white;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        &:active {
+            transform: scale(1.3);
+        }
+
+    }
+
+}
+
+.showError {
+    opacity: 1;
+}
 .events-section {
     text-align: center;
     overflow: hidden;

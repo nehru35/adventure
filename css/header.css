@@ -36,6 +36,7 @@ body {
   margin: 0 auto;
   width: 100%;
   max-width: 1920px;
+  position: relative;
 }
 
 a {
@@ -110,6 +111,7 @@ a {
   margin-right: 10px;
   font-size: 1.1rem;
   font-weight: bold;
+  padding: 10px;
 }
 .header-container .nav-bar ul li .tour {
   background-color: #a81c1c;

@@ -1,27 +1,21 @@
 let btn = document.querySelector(".btn");
 let menu = document.querySelector("#menu");
+let erroBtn = document.querySelector('#errorBtn');
+let emptyLink = document.querySelectorAll('#link');
 
-function showMenu() {
+for (let i = 0; i < emptyLink.length; i++) {
+    emptyLink[i].addEventListener('click', () => {
+        error = document.getElementById('errorBlock');
+        error.classList.add('showError');
+    });
+}
+
+btn.addEventListener('click', () => {
     menu.classList.toggle("show");
-}
+});
 
-function noLink() {
-    window.alert("Sorry, this link is not available!")
-}
-
-btn.addEventListener('click', showMenu);
+erroBtn.addEventListener('click', () => {
+    error.classList.remove('showError');
+});
 
 
-// Melhorar o codigo abaixo
-
-let more1 = document.querySelector('#more1');
-let more2 = document.querySelector('#more2');
-let more3 = document.querySelector('#more3');
-let more4 = document.querySelector('#more4');
-let more5 = document.querySelector('#more5');
-
-more1.addEventListener('click', noLink);
-more2.addEventListener('click', noLink);
-more3.addEventListener('click', noLink);
-more4.addEventListener('click', noLink);
-more5.addEventListener('click', noLink);
