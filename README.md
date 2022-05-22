@@ -1,3 +1,3 @@
 # adventure
 
-A one page web site of a trip company
+This project was created to apply knowledge of HTML, CSS, SASS and JavaScript.
