@@ -1,10 +1,5 @@
 @import 'config';
 
-
-// Upcoming Events section
-
-
-
 .errorMessage {
     opacity: 0;
     position: fixed;
@@ -52,6 +47,9 @@
 .showError {
     opacity: 1;
 }
+
+// Upcoming Events section
+
 .events-section {
     text-align: center;
     overflow: hidden;
